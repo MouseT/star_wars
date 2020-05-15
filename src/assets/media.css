@@ -1,0 +1,87 @@
+@media (max-width: 767px) {
+  .header .header__img-1,
+  .header .header__img-2 {
+    width: 212px;
+    background-size: 212px;
+    height: 51px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header .header__text {
+    font-size: 13px;
+    margin: 0;
+  }
+  .list .list__icon {
+    min-width: 19px;
+    padding-top: 6px;
+  }
+  .item {
+    min-width: 272px !important;
+    min-height: 200px !important;
+  }
+  .footer .footer__text {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 55px 24px 55px 24px;
+    font-weight: bold;
+  }
+  .loader {
+    padding-top: 100px !important;
+  }
+  .modal__main .modal {
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+    padding: 10% 40px 10% 40px;
+  }
+  .modal .modal__content {
+    padding: 0;
+  }
+  .modal .modal__name {
+    margin-top: 40px;
+    padding-bottom: 48px;
+  }
+  .modal .modal__info {
+    flex-wrap: wrap;
+  }
+  .modal .modal__info-item {
+    font-size: 16px;
+    padding-right: 0;
+  }
+  .modal h5 {
+    padding-right: 20px;
+    margin-top: 5px;
+  }
+  .modal .displayModal {
+    padding-bottom: 100px;
+  }
+  .modal__info_row {
+    padding-bottom: 100px;
+  }
+  .modal__loader {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+  }
+  .blurred {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 400px) {
+  .modal__main .modal {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+  }
+  .modal td {
+    min-width: 140px;
+    padding-bottom: 10px;
+  }
+  .modal .modal__name {
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .modal__info {
+    margin-top: 20px;
+  }
+}
